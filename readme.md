@@ -19,6 +19,12 @@ Create a MySQL database with the following tables:
 - **stations**: id, name, meta_type, meta_url
 - **meta**: id, station, artist, title, show_name, time
 **Note: artist and show_name should be nullable.**
+***meta_type can be either text or JSON. If text, it will work OOB. If JSON, you'll need to place the configuration inside config.txt (see examples)**
+
+  **SHOUTCast is supported OOB:**
+  
+  If you set meta_type to **text** and meta_url to **https://HOSTNAME:PORT/currentsong?sid=1**, you'll get the current metadata.
+  
 
 2. Config File:
 - Rename config.example.ini to config.ini.
