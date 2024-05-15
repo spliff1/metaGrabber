@@ -24,8 +24,6 @@ Create a MySQL database with the following tables:
 - Rename config.example.ini to config.ini.
 - Update config.ini with your database connection details.
 
-Then, you should rename config.example.ini to config.ini.
-You're also gonna need a database with the following:
 
 ## Building
 To build the app, run **make**, then execute it with **./main**. 
